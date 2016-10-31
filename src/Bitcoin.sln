@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin-qt", "qt\bitcoin-qt.vcxproj", "{60189563-88E1-3ED4-9D3C-904C24D37B76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoind", "bitcoind.vcxproj", "{47F810D8-108D-4ADD-89DA-211BE2927F02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin-cli", "bitcoin-cli.vcxproj", "{9F08D14C-F001-4987-9C2E-659859CE23F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60189563-88E1-3ED4-9D3C-904C24D37B76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60189563-88E1-3ED4-9D3C-904C24D37B76}.Debug|Win32.Build.0 = Debug|Win32
+		{60189563-88E1-3ED4-9D3C-904C24D37B76}.Release|Win32.ActiveCfg = Release|Win32
+		{60189563-88E1-3ED4-9D3C-904C24D37B76}.Release|Win32.Build.0 = Release|Win32
+		{47F810D8-108D-4ADD-89DA-211BE2927F02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47F810D8-108D-4ADD-89DA-211BE2927F02}.Debug|Win32.Build.0 = Debug|Win32
+		{47F810D8-108D-4ADD-89DA-211BE2927F02}.Release|Win32.ActiveCfg = Release|Win32
+		{47F810D8-108D-4ADD-89DA-211BE2927F02}.Release|Win32.Build.0 = Release|Win32
+		{9F08D14C-F001-4987-9C2E-659859CE23F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F08D14C-F001-4987-9C2E-659859CE23F6}.Debug|Win32.Build.0 = Debug|Win32
+		{9F08D14C-F001-4987-9C2E-659859CE23F6}.Release|Win32.ActiveCfg = Release|Win32
+		{9F08D14C-F001-4987-9C2E-659859CE23F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
